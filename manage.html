@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Clients - InnovateX</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="manage.html">Manage</a></li>
+      <li><a href="analytics.html">Analytics</a></li>
+    </ul>
+  </nav>
+
+  <section class="crud-section">
+    <h1>Client Onboarding Portal</h1>
+    <form id="clientForm">
+      <input type="text" id="clientName" placeholder="Client Name" required>
+      <input type="email" id="clientEmail" placeholder="Email" required>
+      <input type="text" id="clientCompany" placeholder="Company" required>
+      <select id="clientStatus">
+        <option value="Active">Active</option>
+        <option value="Pending">Pending</option>
+        <option value="Inactive">Inactive</option>
+      </select>
+      <button type="submit">Add Client</button>
+    </form>
+
+    <div class="client-list">
+      <h2>Client Records</h2>
+      <table id="clientTable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Company</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+          
+        <tbody>
+          <!-- Entries will appear here -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 InnovateX. All rights reserved.</p>
+  </footer>
+
+  <script src="js/manage.js"></script>
+</body>
+</html>

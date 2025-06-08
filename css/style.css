@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #1f2937;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Welcome Section with Background */
+  .welcome-section {
+    background: url('../img/innovatex-banner.png') center/cover no-repeat;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .welcome-section .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  .welcome-section p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Features */
+  .features {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+    margin-top: 40px;
+  }
+
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f9fafb;
+  }
+  
+  .about-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .about-content {
+    flex: 1 1 500px;
+    max-width: 700px;
+  }
+  
+  .about-content h1,
+  .about-content h2 {
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p,
+  .about-content ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .about-content ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .about-content a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .about-content a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .crud-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .crud-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .crud-section input,
+  .crud-section select {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .crud-section button {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .client-list {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .client-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .client-list th,
+  .client-list td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .client-list th {
+    background-color: #f4f6f9;
+  }
+
+
+  .analytics-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .analytics-section h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #1f2937;
+  }
+
+  .chart-controls {
+    margin-bottom: 20px;
+  }
+  
+  .chart-controls select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin-left: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  canvas {
+    max-width: 100%;
+  }
+
+
+  .client-list button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit-btn {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #ef4444;
+    color: white;
+  }
+  

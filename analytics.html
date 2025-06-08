@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Analytics Dashboard - InnovateX</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="manage.html">Manage</a></li>
+      <li><a href="analytics.html">Analytics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Analytics Section -->
+  <section class="analytics-section">
+    <h1>Quarterly Analytics Dashboard</h1>
+
+    <div class="chart-controls">
+      <label for="yearSelector">Select Year:</label>
+      <select id="yearSelector">
+        <option value="2024" selected>2024</option>
+        <option value="2023">2023</option>
+      </select>
+    </div>
+
+    <!-- Revenue Chart -->
+    <canvas id="revenueChart" width="800" height="400"></canvas>
+
+    <!-- Customer Chart -->
+    <canvas id="customerChart" width="800" height="400" style="margin-top: 50px;"></canvas>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 InnovateX. All rights reserved.</p>
+  </footer>
+
+  <!-- Chart Logic -->
+  <script src="js/chart.js"></script>
+</body>
+</html>
